@@ -20,7 +20,7 @@ class SecondActivity : AppCompatActivity() {
         }
         val intent = intent
         binding.changingNum.setText(intent.getStringExtra(numFromMain))
-        Log.d("SecondActivity", "got instance from MainActivity = ${binding.changingNum}")
+        Log.d("SecondActivity", "got instance from MainActivity = ${binding.changingNum.text}")
         var pow =
             binding.changingNum.text.toString().toInt() * binding.changingNum.text.toString()
                 .toInt()

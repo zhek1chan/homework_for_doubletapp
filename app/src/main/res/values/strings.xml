@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">homework_for_doubletapp</string>
+    <string name="zero">0</string>
+    <string name="tap_to_enter_the_second_activity">Tap to enter the second activity</string>
+    <string name="tap_to_enter_the_main_activity">Tap to enter the main activity</string>
+</resources>
